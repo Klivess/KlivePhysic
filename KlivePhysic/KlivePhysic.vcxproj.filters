@@ -3,9 +3,12 @@
   <ItemGroup>
     <ClInclude Include="src\Client\PhysicsClient.h" />
     <ClInclude Include="src\Objects\PhysicsObject.h" />
+    <ClInclude Include="WorldPosition.h" />
+    <ClInclude Include="src\Objects\commonIncludes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Client\PhysicsClient.cpp" />
     <ClCompile Include="src\Objects\PhysicsObject.cpp" />
+    <ClCompile Include="WorldPosition.cpp" />
   </ItemGroup>
 </Project>

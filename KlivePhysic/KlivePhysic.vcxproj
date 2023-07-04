@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Objects\commonIncludes.h" />
     <ClInclude Include="src\Objects\PhysicsObject.h" />
     <ClInclude Include="src\Client\PhysicsClient.h" />
+    <ClInclude Include="WorldPosition.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Objects\PhysicsObject.cpp" />
     <ClCompile Include="src\Client\PhysicsClient.cpp" />
+    <ClCompile Include="WorldPosition.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
