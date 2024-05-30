@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KlivePhysic", "KlivePhysic\KlivePhysic.vcxproj", "{E8AE8DF2-F698-4A87-98F7-31704F7FD9CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KlivePhysicTests", "KlivePhysicTests\KlivePhysicTests.vcxproj", "{B349199C-3383-4CF9-8587-BFAE0FAD0184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E8AE8DF2-F698-4A87-98F7-31704F7FD9CA}.Release|x64.Build.0 = Release|x64
 		{E8AE8DF2-F698-4A87-98F7-31704F7FD9CA}.Release|x86.ActiveCfg = Release|Win32
 		{E8AE8DF2-F698-4A87-98F7-31704F7FD9CA}.Release|x86.Build.0 = Release|Win32
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Debug|x64.ActiveCfg = Debug|x64
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Debug|x64.Build.0 = Debug|x64
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Debug|x86.ActiveCfg = Debug|Win32
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Debug|x86.Build.0 = Debug|Win32
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Release|x64.ActiveCfg = Release|x64
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Release|x64.Build.0 = Release|x64
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Release|x86.ActiveCfg = Release|Win32
+		{B349199C-3383-4CF9-8587-BFAE0FAD0184}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

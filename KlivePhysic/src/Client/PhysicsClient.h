@@ -1,7 +1,21 @@
+#pragma once
+#include "../Stopwatch/KPStopwatch.h"
 
 
-class testClass {
-	public:
-		static int exampleNumber1;
-		int exampleNumber2;
+class PhysicsClient
+{
+private:
+	long long previousTime;
+	KPStopwatch stopwatch;
+public:
+	//Place options parameters here
+	PhysicsClient();
+	~PhysicsClient();
+
+	//Information
+	float GetDeltaTimeNanoseconds();
+
+	//Object instantiation
+
 };
+
